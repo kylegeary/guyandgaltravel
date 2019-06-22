@@ -1,30 +1,30 @@
 ---
 template: HomePage
 slug: ''
-title: Yellowcake
-featuredImage: 'https://ucarecdn.com/159203d3-881d-4218-baa1-ca4427b48d0d/'
-subtitle: ' Welcome to the ultimate Gatsby and Netlify starter project.'
+title: Guy & Gal Travel
+featuredImage: 'https://ucarecdn.com/50aade11-83ec-457f-95f0-b84824efb829/'
+subtitle: >-
+  We’re Chris and Paige Fellows, newlyweds embarking on the ultimate
+  around-the-world adventure: 365 days, 6 continents, 2 backpacks and countless
+  memories to be made.
 meta:
   description: This is a meta description.
   title: The Ultimate Gatsby Starter
 ---
-Yellowcake is an opinionated starter project created by [Thrive Digital](https://thriveweb.com.au/) a [Gold Coast Web Design](https://thriveweb.com.au/) studio. to help you create lightening fast websites with [Gatsby](https://gatsbyjs.org) and [Netlify CMS](https://netlifycms.org).
+Yes, Yes, without the oops! Life finds a way. Remind me to thank John for a lovely weekend. Checkmate... Yeah, but your scientists were so preoccupied with whether or not they could, they didn't stop to think if they should. You know what? It is beets. I've crashed into a beet truck.
 
-View the [project overview](https://thriveweb.com.au/the-lab/yellowcake-gatsby-react-js-starter-project/) and the [docs](https://github.com/thriveweb/yellowcake/blob/master/README.md).
 
-# Features
 
-* **[Gatsby](https://gatsbyjs.org)** static site generator
-* **[Netlify CMS](https://github.com/netlify/netlify-cms)** for content management
-* Dynamic menus and forms
-* **[Mailchimp](http://mailchimp.com)** and **[Uploadcare](https://uploadcare.com)** integrations
-* Fully responsive layout for mobile and widescreen browsing
-* Blog searching and paging functionality
-* Seamless image and content sliders
-* Instagram feed integration
+What do they got in there? King Kong? Remind me to thank John for a lovely weekend. Just my luck, no ice. Just my luck, no ice. So you two dig up, dig up dinosaurs? Yeah, but your scientists were so preoccupied with whether or not they could, they didn't stop to think if they should.
 
-## Get started
 
-View the [Netlify CMS Docs](https://www.netlifycms.org/docs/) and the [Netlify CMS Repo](https://github.com/netlify/netlify-cms).
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/thriveweb/yellowcake&stack=cms)
+Checkmate... Yeah, but your scientists were so preoccupied with whether or not they could, they didn't stop to think if they should. Hey, you know how I'm, like, always trying to save the planet? Here's my chance. Just my luck, no ice. God help us, we're in the hands of engineers.
+
+
+
+You're a very talented young man, with your own clever thoughts and ideas. Do you need a manager? Is this my espresso machine? Wh-what is-h-how did you get my espresso machine? They're using our own satellites against us. And the clock is ticking. Checkmate...
+
+
+
+Remind me to thank John for a lovely weekend. Yeah, but your scientists were so preoccupied with whether or not they could, they didn't stop to think if they should. Forget the fat lady! You're obsessed with the fat lady! Drive us out of here! Must go faster... go, go, go, go, go!
