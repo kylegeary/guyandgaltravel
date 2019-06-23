@@ -2,8 +2,8 @@ const postcssPresetEnv = require('postcss-preset-env')
 
 module.exports = {
   siteMetadata: {
-    title: 'Yelloecake',
-    siteUrl: 'https://yellowcake.netlify.com'
+    title: 'Guy & Gal Travel',
+    siteUrl: 'https://guyandgaltravel.netlify.com'
   },
   plugins: [
     'gatsby-plugin-react-helmet',
@@ -37,15 +37,15 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: 'yellowcake',
-        short_name: 'yellowcake',
+        name: 'Guy & Gal Travel',
+        short_name: 'guyandgaltravel',
         start_url: '/',
         background_color: '#00C2BD',
         theme_color: '#00C2BD',
         // Enables "Add to Homescreen" prompt and disables browser UI (including back button)
         // see https://developers.google.com/web/fundamentals/web-app-manifest/#display
         display: 'standalone',
-        icon: `${__dirname}/static/images/logo.svg` // This path is relative to the root of the site.
+        icon: `${__dirname}/static/images/logo.png` // This path is relative to the root of the site.
       }
     },
 
@@ -80,7 +80,7 @@ module.exports = {
             resolve: 'gatsby-remark-images',
             options: {
               maxWidth: 800,
-              linkImagesToOriginal: false
+              linkImagesToOriginal: true
             }
           },
           `gatsby-remark-responsive-iframe`
@@ -107,6 +107,12 @@ module.exports = {
             browsers: '> 0.5%, last 2 versions, ie 11'
           })
         ]
+      }
+    },
+    {
+      resolve: `gatsby-source-instagram`,
+      options: {
+        username: `guyandgaltravel`
       }
     },
     {

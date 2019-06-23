@@ -77,69 +77,25 @@ class Form extends React.Component {
               <input
                 className="Form--Input Form--InputText"
                 type="text"
-                placeholder="Firstname"
-                name="firstname"
+                placeholder="Full name"
+                name="fullname"
                 required
               />
-              <span>Firstname</span>
+              <span>Full name</span>
             </label>
+          </div>
+          <div>
             <label className="Form--Label">
               <input
                 className="Form--Input Form--InputText"
-                type="text"
-                placeholder="Lastname"
-                name="lastname"
+                type="email"
+                placeholder="Email"
+                name="emailAddress"
                 required
               />
-              <span>Lastname</span>
+              <span>Email address</span>
             </label>
           </div>
-          <fieldset>
-            <label className="Form--Label Form--Radio">
-              <input
-                className="Form--RadioInput"
-                type="radio"
-                name="gender"
-                value="male"
-                defaultChecked
-              />
-              <span>Male</span>
-            </label>
-            <label className="Form--Label Form--Radio">
-              <input
-                className="Form--RadioInput"
-                type="radio"
-                name="gender"
-                value="female"
-              />
-              <span>Female</span>
-            </label>
-          </fieldset>
-          <label className="Form--Label">
-            <input
-              className="Form--Input Form--InputText"
-              type="email"
-              placeholder="Email"
-              name="emailAddress"
-              required
-            />
-            <span>Email address</span>
-          </label>
-          <label className="Form--Label has-arrow">
-            <select
-              className="Form--Input Form--Select"
-              name="type"
-              defaultValue="Type of Enquiry"
-              required
-            >
-              <option disabled hidden>
-                Type of Enquiry
-              </option>
-              <option>Need to know more</option>
-              <option>Found a bug</option>
-              <option>Want to say hello</option>
-            </select>
-          </label>
           <label className="Form--Label">
             <textarea
               className="Form--Input Form--Textarea Form--InputText"
