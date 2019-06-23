@@ -20,8 +20,9 @@ export const HomePageTemplate = ({ title, subtitle, featuredImage, body }) => (
         <Content source={body} />
       </div>
     </section>
-
-    <Insta />
+    <div className="container taCenter">
+      <Insta />
+    </div>
   </main>
 )
 

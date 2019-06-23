@@ -13,6 +13,7 @@ const useInstagram = () => {
           original
           timestamp
           caption
+          username
           localFile {
             childImageSharp {
               fluid {
