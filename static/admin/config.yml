@@ -7,7 +7,7 @@ backend:
 media_library:
   name: uploadcare
   config:
-    publicKey: a73a170cb5cdef662983
+    publicKey: 7bd9fdbbcfc47d6f8ecd
     multiple: false
     tabs: 'file camera url facebook gdrive gphotos'
     effects: 'crop,rotate,enhance,grayscale'
@@ -137,17 +137,17 @@ collections: # A list of collections the CMS should be able to edit
                   required: false,
                 }
 
-      - file: 'content/pages/componets.md'
-        label: 'Componets Page'
-        name: 'componets-page'
+      - file: 'content/pages/components.md'
+        label: 'components Page'
+        name: 'components-page'
         fields:
           - {
               label: Template,
               name: template,
               widget: hidden,
-              default: ComponetsPage,
+              default: componentsPage,
             }
-          - { label: Slug, name: slug, widget: hidden, default: 'componets' }
+          - { label: Slug, name: slug, widget: hidden, default: 'components' }
           - { label: Title, name: title, widget: string }
           - { label: Featured Images, name: featuredImage, widget: image }
           - { label: Subtitle, name: subtitle, widget: markdown }

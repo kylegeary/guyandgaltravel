@@ -12,21 +12,31 @@ const Insta = () => {
     <>
       <h2>
         Follow us{' '}
-        <a className="instagram-link" href={`https://instagram.com/@{username}`}>@GuyAndGalTravel</a>
+        <a
+          className="instagram-link"
+          href={`https://instagram.com/${username}`}
+        >
+          @GuyAndGalTravel
+        </a>
       </h2>
-      <div className="instagram-items">
-        {instaPhotos.map(photo => (
-          <a key={photo.id} href={`https://instagram.com/p/${photo.id}`}>
-            <Image
-              className="instagram-item"
-              fluid={photo.fluid}
-              alt={photo.caption}
-            />
-          </a>
-        ))}
+      <div className="instagram-content-container">
+        <div className="instagram-items">
+          {instaPhotos.map(photo => (
+            <a key={photo.id} href={`https://instagram.com/p/${photo.id}`}>
+              <Image
+                className="instagram-item"
+                fluid={photo.fluid}
+                alt={photo.caption}
+              />
+            </a>
+          ))}
+        </div>
       </div>
-      <a href={`https://instagram.com/${username}`}>
-        See more on Instagram &rarr;
+      <a
+        className="instagram-link__more"
+        href={`https://instagram.com/${username}`}
+      >
+        See&nbsp;more&nbsp;&rarr;
       </a>
     </>
   )

@@ -1,0 +1,14 @@
+.home__bio {
+  display: flex;
+  max-width: 80rem;
+  margin: 0 auto;
+}
+
+.home__bio-image {
+  width: 20rem;
+  height: 20rem;
+}
+
+.home__bio-text {
+  width: 50%;
+}
